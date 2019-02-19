@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {TopCourcesComponent} from './top-cources/top-cources.component';
 
 @Component({
   selector: 'app-main',
