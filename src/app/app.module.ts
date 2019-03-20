@@ -14,6 +14,7 @@ import { TopCourcesComponent } from './modules/main/top-cources/top-cources.comp
 import {TopCoursesService} from './services/top-courses.service';
 import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './pages/home/home.component';
+import { BottomBarComponent } from './modules/footer/bottom-bar/bottom-bar.component';
 // import { CoursesComponent } from './pages/courses/courses/courses.component';
 
 @NgModule({
@@ -27,6 +28,7 @@ import { HomeComponent } from './pages/home/home.component';
         TopCourcesComponent,
         NavComponent,
         HomeComponent,
+        BottomBarComponent,
         // CoursesComponent,
     ],
     imports: [
